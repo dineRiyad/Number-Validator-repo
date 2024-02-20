@@ -1,0 +1,99 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #49555a;
+  width: 100%;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: aliceblue;
+  margin: 1rem auto 2.5rem;
+}
+
+.device-frame {
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 14rem;
+  height: 25rem;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.validation-form {
+  height: 100%;
+}
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 1rem auto;
+}
+.ground {
+  background-color: silver;
+}
+.device-screen {
+  border-radius: 2px;
+  padding: 0.5rem 0 0.2rem;
+}
+
+.user-input {
+  margin: 0.5rem auto;
+  width: 90%;
+  height: 2rem;
+  padding: 0 0.2rem;
+  font: inherit;
+  border-radius: 0.5rem;
+  border: 2px solid darkslategray;
+}
+
+.results-div {
+  height: 13.5rem;
+  text-align: left;
+  margin-left: 0.7rem;
+  overflow-x: hidden;
+  font-family: "Roboto Serif", serif;
+}
+
+.button-div {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button {
+  width: 5rem;
+  height: 1.7rem;
+  font: inherit;
+  font-weight: bold;
+  border-width: 2px;
+  border-top-color: silver;
+  border-left-color: silver;
+  border-bottom-color: darkgray;
+  border-right-color: darkgray;
+}
+
+button:active {
+  border-top-color: darkgray;
+  border-left-color: darkgray;
+  border-bottom-color: silver;
+  border-right-color: silver;
+}
