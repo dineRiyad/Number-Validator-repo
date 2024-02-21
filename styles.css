@@ -69,7 +69,20 @@ body {
   text-align: left;
   margin-left: 0.7rem;
   overflow-x: hidden;
+}
+
+.font {
   font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.valid-input {
+  color: darkgreen;
+}
+
+.invalid-input {
+  color: darkred;
 }
 
 .button-div {
